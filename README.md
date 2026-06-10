@@ -43,7 +43,7 @@ GIF created with GIPHY
 
 ## Notes
 
-Biggest challenge was getting the sticky header to work without it overlapping the cards — had to add top padding to the main container to fix it. Also ran into an issue with images not showing up because I used href instead of src on the img tag.
+Biggest challenge was getting the sticky header to work without it overlapping the cards. I had to add top padding to the main container to fix it. Also ran into an issue with images not showing up because I used href instead of src on the img tag.
 
 ## License
 
