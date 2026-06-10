@@ -1,0 +1,84 @@
+.app {
+  margin: 0 auto;
+  padding: 120px 24px 24px;
+  background-color: rgb(0, 0, 250);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-radius: 0;
+  background-color: rgba(0, 0, 146, 0.6);
+  backdrop-filter: blur(10px);
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: gray;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 10px solid rgb(0, 0, 146);
+  border-radius: 40px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px 4px rgba(128, 0, 128, 0.7);
+}
+
+img {
+  border: 10px dashed rgb(0, 0, 146);
+  border-radius: 40px; 
+}
+
+.genre-tag {
+  display: inline-block;
+  background: purple;
+  color: white;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.card a {
+  margin-top: 8px;
+  color: purple;
+  font-weight: bold;
+  text-decoration: none;
+}
