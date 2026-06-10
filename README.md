@@ -1,10 +1,10 @@
 # Web Development Project 1 - Maryland Hip-Hop & R&B Concert Board
 
-Submitted by: **Your Name Here**
+Submitted by: Hiyall Fitsum
 
 This web app: **A community board showing upcoming Hip-Hop and R&B concerts happening around Maryland. You can browse shows by artist, venue, date, and price, and click through to grab tickets.**
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -47,7 +47,7 @@ Biggest challenge was getting the sticky header to work without it overlapping t
 
 ## License
 
-    Copyright 2025 Your Name Here
+    Copyright 2025 Hiyall Fitsum
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
